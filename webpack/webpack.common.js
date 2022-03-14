@@ -11,6 +11,9 @@ module.exports = {
     path: Path.join(__dirname, '../build'),
     filename: 'js/[name].js',
   },
+  devServer: {
+     port: 4040,
+  },
   optimization: {
     splitChunks: {
       chunks: 'all',
